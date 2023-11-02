@@ -74,6 +74,11 @@ class Solution:
             i_min, i_max, j_min, j_max = x_min, x_max, y_min, y_max
 
         
+        ## Sliding window to check the valid window for the possible length
+        ## Although there are 3 loops here, but the loop for i or j remains only one time
+        ## depending on which dimension is fixed (either length or width)
+        ## So, TC - O(m*n)
+        ## SC - O(m+n)
         for i in range(i_min, i_max - possible_sidelength + 2):
             for j in range(j_min, j_max - possible_sidelength + 2):
                 xcorner_point = i + possible_sidelength - 1
