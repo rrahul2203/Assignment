@@ -5,6 +5,10 @@ class Solution:
         n, m = len(grid), len(grid[0])
         x_min, y_min = n, m
 
+        ## Smallest square frame exists of sidelength 2
+        if n<3 or m<3:
+            return 1
+
         x_max, y_max = -1, -1
         marked_cells = []
         for i in range(n):
