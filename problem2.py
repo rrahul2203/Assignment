@@ -80,7 +80,7 @@ class Solution:
 
         
         ## Sliding window to check the valid window for the possible length
-        ## Although there are 3 loops here, but the loop for i or j remains only one time
+        ## Although there are 3 loops here, but the loop for i or j runs only one time
         ## depending on which dimension is fixed (either length or width)
         ## So, TC - O(m*n)
         ## SC - O(m+n)
