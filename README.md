@@ -6,15 +6,15 @@ First add you testcase in the input1.txt
 Format of the file:\
 First line represents n: number of test cases  followed by n testcase.\
 Example:\
-**4\
-**BBBB\
-**WWBBB\
-**WBBBWWWB\
-**WBWBWBWWB
+** 4\
+** BBBB\
+** WWBBB\
+** WBBBWWWB\
+** WBWBWBWWB
 
-Explaination:
-First line represents number of test cases , n = 4
-Followed by 4 testcases
+Explaination:\
+First line represents number of test cases , n = 4\
+Followed by 4 testcases\
 ["BBBB","WWBBB","WBBBWWWB", "WBWBWBWWB"]
 
 run the following command:  python problem1.py
