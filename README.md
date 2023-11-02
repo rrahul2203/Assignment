@@ -15,12 +15,13 @@ The `input1.txt` file should have the following format:
 - This is followed by `n` test cases, each on a separate line.
 
 #### Example:
+```
 4
 BBBB
 WWBBB
 WBBBWWWB
 WBWBWBWWB
-
+```
 
 #### Explanation:
 
@@ -47,6 +48,7 @@ The `input2.txt` file should have the following format for each test case:
 
 #### Example:
 
+```
 3
 3 5
 .X.X.
@@ -59,6 +61,7 @@ The `input2.txt` file should have the following format for each test case:
 2 2
 .X
 ..
+```
 
 #### Explanation:
 
@@ -90,4 +93,4 @@ The `input2.txt` file should have the following format for each test case:
     ```
 
 2. Run the following command:
-  python problem2.py
+  ```python problem2.py```
