@@ -5,7 +5,8 @@ class Solution:
         n, m = len(grid), len(grid[0])
         x_min, y_min = n, m
 
-        ## Smallest square frame exists of sidelength 2
+        ## Smallest square frame exists of sidelength 3
+        ## It is not possible to draw a square frame for width or length less than 3
         if n<3 or m<3:
             return 1
 
